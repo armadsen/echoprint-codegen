@@ -41,7 +41,7 @@ else
 endif
 
 echoprint-codegen: $(MODULES) main.o
-	$(CXX) $(MODULES) $(LDFLAGS) main.o -o ../echoprint-codegen
+	$(CXX) $(MODULES) main.o $(LDFLAGS) -o ../echoprint-codegen
 
 %.o: %.c %.h
 	$(CC) $(CFLAGS) -c -o $@ $<
@@ -69,11 +69,11 @@ LIBDIR ?= /lib
 INCLUDEDIR ?= /include
 
 install: all
-	install -d $(DESTDIR)$(BINDIR)
+	mkdir -p $(DESTDIR)$(BINDIR)
 	install ../echoprint-codegen $(DESTDIR)$(BINDIR)
 	install -d $(DESTDIR)$(INCLUDEDIR)/echoprint
 	install -pm 644 Codegen.h $(DESTDIR)$(INCLUDEDIR)/echoprint/
-	install -d $(DESTDIR)$(LIBDIR)
+	mkdir -p $(DESTDIR)$(LIBDIR)
 ifeq ($(UNAME),Darwin)
 	install -m 755 libcodegen.$(VERSION).dylib $(DESTDIR)$(LIBDIR)
 	ln -fs $(DESTDIR)$(LIBDIR)/libcodegen.$(VERSION) $(DESTDIR)$(LIBDIR)/libcodegen.$(VERSION_MAJ).dylib
