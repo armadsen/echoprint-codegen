@@ -9,9 +9,24 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>echoprint-codegen-osx.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>9DCD3A2A1A23C43A004EE8C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9DCD3A2F1A23C46C004EE8C2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>C8D4AD1B137EE85F00CD506D</key>
 		<dict>
 			<key>primary</key>

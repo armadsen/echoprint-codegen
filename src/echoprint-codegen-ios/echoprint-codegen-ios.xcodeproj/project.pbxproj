@@ -11,6 +11,28 @@
 		9AAF51A813B2557800099790 /* Whitening.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAF51A613B2557800099790 /* Whitening.h */; };
 		9AE5AA19139FB2620009FCD8 /* SubbandAnalysis.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE5AA17139FB2620009FCD8 /* SubbandAnalysis.h */; };
 		9AE5AA1A139FB2620009FCD8 /* SubbandAnalysis.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5AA18139FB2620009FCD8 /* SubbandAnalysis.cxx */; };
+		9DCD3A311A23C46C004EE8C2 /* AudioBufferInput.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD29137EF41100CD506D /* AudioBufferInput.cxx */; };
+		9DCD3A321A23C46C004EE8C2 /* AudioStreamInput.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD2B137EF41100CD506D /* AudioStreamInput.cxx */; };
+		9DCD3A331A23C46C004EE8C2 /* Base64.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD2D137EF41100CD506D /* Base64.cxx */; };
+		9DCD3A341A23C46C004EE8C2 /* Codegen.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD2F137EF41100CD506D /* Codegen.cxx */; };
+		9DCD3A351A23C46C004EE8C2 /* Fingerprint.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD42137EF41100CD506D /* Fingerprint.cxx */; };
+		9DCD3A361A23C46C004EE8C2 /* MatrixUtility.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD44137EF41100CD506D /* MatrixUtility.cxx */; };
+		9DCD3A371A23C46C004EE8C2 /* SubbandAnalysis.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 9AE5AA18139FB2620009FCD8 /* SubbandAnalysis.cxx */; };
+		9DCD3A381A23C46C004EE8C2 /* Whitening.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 9AAF51A513B2557800099790 /* Whitening.cxx */; };
+		9DCD3A3A1A23C46C004EE8C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D4AD1F137EE85F00CD506D /* Foundation.framework */; };
+		9DCD3A3C1A23C46C004EE8C2 /* AudioBufferInput.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD2A137EF41100CD506D /* AudioBufferInput.h */; };
+		9DCD3A3D1A23C46C004EE8C2 /* AudioStreamInput.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD2C137EF41100CD506D /* AudioStreamInput.h */; };
+		9DCD3A3E1A23C46C004EE8C2 /* Base64.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD2E137EF41100CD506D /* Base64.h */; };
+		9DCD3A3F1A23C46C004EE8C2 /* Codegen.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD30137EF41100CD506D /* Codegen.h */; };
+		9DCD3A401A23C46C004EE8C2 /* Common.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD31137EF41100CD506D /* Common.h */; };
+		9DCD3A411A23C46C004EE8C2 /* File.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD40137EF41100CD506D /* File.h */; };
+		9DCD3A421A23C46C004EE8C2 /* Fingerprint.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD43137EF41100CD506D /* Fingerprint.h */; };
+		9DCD3A431A23C46C004EE8C2 /* MatrixUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD45137EF41100CD506D /* MatrixUtility.h */; };
+		9DCD3A441A23C46C004EE8C2 /* Params.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD48137EF41100CD506D /* Params.h */; };
+		9DCD3A451A23C46C004EE8C2 /* win_funcs.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD4D137EF41100CD506D /* win_funcs.h */; };
+		9DCD3A461A23C46C004EE8C2 /* win_unistd.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD4E137EF41100CD506D /* win_unistd.h */; };
+		9DCD3A471A23C46C004EE8C2 /* SubbandAnalysis.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AE5AA17139FB2620009FCD8 /* SubbandAnalysis.h */; };
+		9DCD3A481A23C46C004EE8C2 /* Whitening.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AAF51A613B2557800099790 /* Whitening.h */; };
 		C8D4AD20137EE85F00CD506D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8D4AD1F137EE85F00CD506D /* Foundation.framework */; };
 		C8D4AD4F137EF41100CD506D /* AudioBufferInput.cxx in Sources */ = {isa = PBXBuildFile; fileRef = C8D4AD29137EF41100CD506D /* AudioBufferInput.cxx */; };
 		C8D4AD50137EF41100CD506D /* AudioBufferInput.h in Headers */ = {isa = PBXBuildFile; fileRef = C8D4AD2A137EF41100CD506D /* AudioBufferInput.h */; };
@@ -36,6 +58,7 @@
 		9AAF51A613B2557800099790 /* Whitening.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Whitening.h; path = ../Whitening.h; sourceTree = SOURCE_ROOT; };
 		9AE5AA17139FB2620009FCD8 /* SubbandAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SubbandAnalysis.h; path = ../SubbandAnalysis.h; sourceTree = SOURCE_ROOT; };
 		9AE5AA18139FB2620009FCD8 /* SubbandAnalysis.cxx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = SubbandAnalysis.cxx; path = ../SubbandAnalysis.cxx; sourceTree = SOURCE_ROOT; };
+		9DCD3A4C1A23C46C004EE8C2 /* libechoprint-codegen-osx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libechoprint-codegen-osx.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D4AD1C137EE85F00CD506D /* libechoprint-codegen-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libechoprint-codegen-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D4AD1F137EE85F00CD506D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8D4AD23137EE85F00CD506D /* echoprint-codegen-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "echoprint-codegen-ios-Prefix.pch"; sourceTree = "<group>"; };
@@ -61,6 +84,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9DCD3A391A23C46C004EE8C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCD3A3A1A23C46C004EE8C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8D4AD19137EE85F00CD506D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -87,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				C8D4AD1C137EE85F00CD506D /* libechoprint-codegen-ios.a */,
+				9DCD3A4C1A23C46C004EE8C2 /* libechoprint-codegen-osx.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +171,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		9DCD3A3B1A23C46C004EE8C2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCD3A3C1A23C46C004EE8C2 /* AudioBufferInput.h in Headers */,
+				9DCD3A3D1A23C46C004EE8C2 /* AudioStreamInput.h in Headers */,
+				9DCD3A3E1A23C46C004EE8C2 /* Base64.h in Headers */,
+				9DCD3A3F1A23C46C004EE8C2 /* Codegen.h in Headers */,
+				9DCD3A401A23C46C004EE8C2 /* Common.h in Headers */,
+				9DCD3A411A23C46C004EE8C2 /* File.h in Headers */,
+				9DCD3A421A23C46C004EE8C2 /* Fingerprint.h in Headers */,
+				9DCD3A431A23C46C004EE8C2 /* MatrixUtility.h in Headers */,
+				9DCD3A441A23C46C004EE8C2 /* Params.h in Headers */,
+				9DCD3A451A23C46C004EE8C2 /* win_funcs.h in Headers */,
+				9DCD3A461A23C46C004EE8C2 /* win_unistd.h in Headers */,
+				9DCD3A471A23C46C004EE8C2 /* SubbandAnalysis.h in Headers */,
+				9DCD3A481A23C46C004EE8C2 /* Whitening.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8D4AD1A137EE85F00CD506D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -162,6 +214,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		9DCD3A2F1A23C46C004EE8C2 /* echoprint-codegen-osx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DCD3A491A23C46C004EE8C2 /* Build configuration list for PBXNativeTarget "echoprint-codegen-osx" */;
+			buildPhases = (
+				9DCD3A301A23C46C004EE8C2 /* Sources */,
+				9DCD3A391A23C46C004EE8C2 /* Frameworks */,
+				9DCD3A3B1A23C46C004EE8C2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "echoprint-codegen-osx";
+			productName = "echoprint-codegen-ios";
+			productReference = 9DCD3A4C1A23C46C004EE8C2 /* libechoprint-codegen-osx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		C8D4AD1B137EE85F00CD506D /* echoprint-codegen-ios */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8D4AD26137EE85F00CD506D /* Build configuration list for PBXNativeTarget "echoprint-codegen-ios" */;
@@ -199,11 +268,27 @@
 			projectRoot = "";
 			targets = (
 				C8D4AD1B137EE85F00CD506D /* echoprint-codegen-ios */,
+				9DCD3A2F1A23C46C004EE8C2 /* echoprint-codegen-osx */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9DCD3A301A23C46C004EE8C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DCD3A311A23C46C004EE8C2 /* AudioBufferInput.cxx in Sources */,
+				9DCD3A321A23C46C004EE8C2 /* AudioStreamInput.cxx in Sources */,
+				9DCD3A331A23C46C004EE8C2 /* Base64.cxx in Sources */,
+				9DCD3A341A23C46C004EE8C2 /* Codegen.cxx in Sources */,
+				9DCD3A351A23C46C004EE8C2 /* Fingerprint.cxx in Sources */,
+				9DCD3A361A23C46C004EE8C2 /* MatrixUtility.cxx in Sources */,
+				9DCD3A371A23C46C004EE8C2 /* SubbandAnalysis.cxx in Sources */,
+				9DCD3A381A23C46C004EE8C2 /* Whitening.cxx in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		C8D4AD18137EE85F00CD506D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -222,6 +307,34 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		9DCD3A4A1A23C46C004EE8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/echoprint_codegen_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "echoprint-codegen-ios/echoprint-codegen-ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "echoprint-codegen-osx";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		9DCD3A4B1A23C46C004EE8C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				DSTROOT = /tmp/echoprint_codegen_ios.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "echoprint-codegen-ios/echoprint-codegen-ios-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "echoprint-codegen-osx";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
 		C8D4AD24137EE85F00CD506D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C8D4AD6F137EF5AC00CD506D /* echoprint-codegen-ios.xcconfig */;
@@ -280,6 +393,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9DCD3A491A23C46C004EE8C2 /* Build configuration list for PBXNativeTarget "echoprint-codegen-osx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DCD3A4A1A23C46C004EE8C2 /* Debug */,
+				9DCD3A4B1A23C46C004EE8C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		C8D4AD16137EE85F00CD506D /* Build configuration list for PBXProject "echoprint-codegen-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
