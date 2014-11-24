@@ -11,9 +11,18 @@
 #include "win_funcs.h"
 #endif
 
+class SubbandAnalysisCreationFailed : public std::exception {
+};
+
 SubbandAnalysis::SubbandAnalysis(AudioStreamInput* pAudio) {
     _pSamples = pAudio->getSamples();
     _NumSamples = pAudio->getNumSamples();
+	
+	uint numFrames = (_NumSamples - C_LEN + 1)/SUBBANDS;
+	if (numFrames == 0) {
+		throw SubbandAnalysisCreationFailed();
+	}
+	
     Init();
 }
 
